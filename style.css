@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flexbox;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+}

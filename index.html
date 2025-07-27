@@ -3,6 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
@@ -15,6 +22,9 @@
                 <ul class="header_menu_list">
                     <li class="header_menu_items">
                         <a href="#about" class="header_menu_link">ABOUT ME</a>
+                    </li>
+                    <li class="header_menu_items">
+                        <a href="#contacts" class="header_menu_link">CONTACTS</a>
                     </li>
                     <li class="header_menu_items">
                         <a href="#skills" class="header_menu_link">SKILLS</a>
@@ -46,11 +56,11 @@
     </header>
     <section class="about">
         <div class="about_me">
-            <h2 class="title_about">About me</h2>
+            <h2 class="title_about" id="about">About me</h2>
             <p class="text_about_me">I am a <b>junior front-end developer</b> with a background in engineering. I hold a degree in oil and gas engeneering but decided to change my careee path to IT, as find this field more promising and exciting. I have experience working as a QA engineer at Yandex and as a database and network specialist at Global Monitoring. I possess the necessary soft skills for a developer and I am actively improving my hard skills.</p>
         </div>
         <div class="contact">
-            <h2 class="title_contact">Contancts</h2>
+            <h2 class="title_contact" id="contacts">Contancts</h2>
             <ul class="contact_list">
                 <li class="contact_item">
                     <a href="https://vk.com/telemesova" class="contact_icon_link" target="_blank">
@@ -81,7 +91,7 @@
         </div>
     </section>
     <section class="skill">
-        <h2 class="title_skill">Skills</h2>
+        <h2 class="title_skill" id="skills">Skills</h2>
         <ul class="skill_list">
             <li class="skill_item">
                 <h3 class="skill_name">HTML</h3>
@@ -126,10 +136,10 @@
         </ul>
     </section>
     <section class="projects">
-        <h2 class="title_projects">Projects</h2>
+        <h2 class="title_projects" id="projects">Projects</h2>
     </section>
     <section class="experience">
-        <h2 class="title_experience">Experience</h2>
+        <h2 class="title_experience" id="experience">Experience</h2>
         <ul class="experience_list">
             <li class="experience_item">
                 <p class="experience_year">April 2022 - March 2023</p>
@@ -141,7 +151,7 @@
             </li>
         </ul>
     </section>
-    <section class="education">
+    <section class="education" id="education">
         <h2 class="title_education">Education</h2>
         <ul class="education_list">
             <li class="education_item">
@@ -182,4 +192,3 @@
         </div>
     </footer>
 </body>
-</html>
