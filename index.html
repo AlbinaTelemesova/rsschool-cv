@@ -14,181 +14,190 @@
 </head>
 <body>
     <header>
-        <div class="navbar">
-            <div class="cv_logo_name">
-                <p class="logo_name">Albina Tyulegenova</p>
+        <div class="container">
+            <div class="header_menu_navigation">
+                <div class="cv_logo_name">
+                    <p class="logo_name">Albina Tyulegenova</p>
+                </div>
+                <nav class="header_menu">
+                    <ul class="header_menu_list">
+                        <li class="header_menu_items">
+                            <a href="#about" class="header_menu_link">ABOUT ME</a>
+                        </li>
+                        <li class="header_menu_items">
+                            <a href="#contacts" class="header_menu_link">CONTACTS</a>
+                        </li>
+                        <li class="header_menu_items">
+                            <a href="#skills" class="header_menu_link">SKILLS</a>
+                        </li>
+                        <li class="header_menu_items">
+                            <a href="#projects" class="header_menu_link">PROJECTS</a>
+                        </li>
+                        <li class="header_menu_items">
+                            <a href="#experience" class="header_menu_link">EXPERIENCE</a>
+                        </li>
+                        <li class="header_menu_items">
+                            <a href="#education" class="header_menu_link">EDUCATION</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header_menu">
-                <ul class="header_menu_list">
-                    <li class="header_menu_items">
-                        <a href="#about" class="header_menu_link">ABOUT ME</a>
+        
+            <div class="header_info">
+                <div class="header_list">
+                    <p class="header_welcome">Welcome</p>
+                    <p class="header_name">I'am Albina Tyulegenova</p>
+                    <p class="header_prof">FRONT-END DEVELOPER</p>
+                    <!--ДОДЕЛАТЬ КНОПКУ!-->
+                    <button class="btn_download_cv" type="button">Download CV</button>
+                </div>
+                <div class="header_photo">
+                    <img class="main_photo" src="./images/header_photo.jpg" alt="Albina Tyulegenova photo">
+                </div>
+            </div>
+    </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="about">        
+                <div class="about_me">
+                    <h2 class="title_about" id="about">About me</h2>
+                    <p class="text_about_me">I am a <b>junior front-end developer</b> with a background in engineering. I hold a degree in oil and gas engeneering but decided to change my careee path to IT, as find this field more promising and exciting. I have experience working as a QA engineer at Yandex and as a database and network specialist at Global Monitoring. I possess the necessary soft skills for a developer and I am actively improving my hard skills.</p>
+                </div>        
+                <div class="contact">
+                    <h2 class="title_contact" id="contacts">Contancts</h2>
+                    <ul class="contact_list">
+                        <li class="contact_item">
+                            <a href="https://vk.com/telemesova" class="contact_icon_link" target="_blank">
+                                <img src="./images/vk.png" alt="VK logo" class="contact_vk">
+                            </a>
+                        </li>
+                        <li class="contact_item">
+                            <a href="https://t.me/albina_tyulegenova" class="contact_icon_link" target="_blank">
+                                <img src="./images/tg.png" alt="Telegram logo" class="contact_tg">
+                            </a>
+                        </li>
+                        <li class="contact_item">
+                            <a href="mailto:telemesova96@gmail.com" class="contact_icon_link" target="_blank">
+                                <img src="./images/email.png" alt="email logo" class="contact_email">
+                            </a>
+                        </li>
+                        <li class="contact_item">
+                            <a href="tel:+79273066339" class="contact_icon_link" target="_blank">
+                                <img src="./images/phone.png" alt="phone logo" class="contact_phone" title="+7-927-306-63-39">
+                            </a>
+                        </li>
+                        <li class="contact_item">
+                            <a href="https://github.com/AlbinaTelemesova" class="contact_icon_link" target="_blank">
+                                <img src="./images/git.png" alt="GitPub logo" class="contact_git">
+                            </a>
+                        </li>                                
+                    </ul>
+                </div>
+            </section>
+            <section class="skill">
+                <h2 class="title_skill" id="skills">Skills</h2>
+                <ul class="skill_list">
+                    <li class="skill_item">
+                        <h3 class="skill_name">HTML</h3>
+                        <img src="./images/HTML5.png" alt="HTML5 logo" class="skill_logo">
                     </li>
-                    <li class="header_menu_items">
-                        <a href="#contacts" class="header_menu_link">CONTACTS</a>
+                    <li class="skill_item">
+                        <h3 class="skill_name">CSS</h3>
+                        <img src="./images/CSS.png" alt="CSS3 logo" class="skill_logo">
                     </li>
-                    <li class="header_menu_items">
-                        <a href="#skills" class="header_menu_link">SKILLS</a>
+                    <li class="skill_item">
+                        <h3 class="skill_name">JavaScript</h3>
+                        <img src="./images/js.png" alt="JavaScript logo" class="skill_logo">
                     </li>
-                    <li class="header_menu_items">
-                        <a href="#projects" class="header_menu_link">PROJECTS</a>
+                    <li class="skill_item">
+                        <h3 class="skill_name">TypeScript</h3>
+                        <img src="./images/ts.png" alt="TypeScript logo" class="skill_logo">
                     </li>
-                    <li class="header_menu_items">
-                        <a href="#experience" class="header_menu_link">EXPERIENCE</a>
+                    <li class="skill_item">
+                        <h3 class="skill_name">Git</h3>
+                        <img src="./images/git_logo.png" alt="Git logo" class="skill_logo">
                     </li>
-                    <li class="header_menu_items">
-                        <a href="#education" class="header_menu_link">EDUCATION</a>
+                    <li class="skill_item">
+                        <h3 class="skill_name">React</h3>
+                        <img src="./images/react.png" alt="React logo" class="skill_logo">
+                    </li>
+                    <li class="skill_item">
+                        <h3 class="skill_name">Node.js</h3>
+                        <img src="./images/node.png" alt="Node.js logo" class="skill_logo">
+                    </li>
+                    <li class="skill_item">
+                        <h3 class="skill_name">Sass</h3>
+                        <img src="./images/sass.png" alt="Sass logo" class="skill_logo">
+                    </li>
+                    <li class="skill_item">
+                        <h3 class="skill_name">Figma</h3>
+                        <img src="./images/figma.png" alt="Figma logo" class="skill_logo">
+                    </li>
+                    <li class="skill_item">
+                        <h3 class="skill_name">English</h3>
+                        <img src="./images/english.png" alt="English" class="skill_logo">
                     </li>
                 </ul>
-            </nav>
+            </section>
+            <section class="projects">
+                <h2 class="title_projects" id="projects">Projects</h2>
+            </section>
+            <section class="experience">
+                <h2 class="title_experience" id="experience">Experience</h2>
+                <ul class="experience_list">
+                    <li class="experience_item">
+                        <p class="experience_year">April 2022 - March 2023</p>
+                        <p class="experience_company">QA engineer at Yandex</p>
+                    </li>
+                    <li class="experience_item">
+                        <p class="experience_year">April 2023 - November 2023</p>
+                        <p class="experience_company">Database and network specialist at Global Monitoring</p>
+                    </li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="title_education">Education</h2>
+                <ul class="education_list">
+                    <li class="education_item">
+                        <p class="education_year">2014 - 2020</p>
+                        <p class="education_course">Ufa State Petroleum Technological University (USPTU), oil and gas engineer</p>
+                    </li>
+                    <li class="education_item">
+                        <p class="education_year">2022</p>
+                        <p class="education_course">Udemy, Software testing from 0 to Intermediate</p>
+                    </li>
+                    <li class="education_item">
+                        <p class="education_year">2025</p>
+                        <p class="education_course">Stepik, FullStack Pro MAX</p>
+                    </li>
+                    <li class="education_item">
+                        <p class="education_year">2025</p>
+                        <p class="education_course">Rolling Scopes School, JS/Front-end Course</p>
+                    </li>
+                </ul>
+            </section>
         </div>
-        <div class="header_info">
-            <div class="header_list">
-                <p class="header_welcome">Welcome</p>
-                <p class="header_name">I'am Albina Tyulegenova</p>
-                <p class="header_prof">FRONT-END DEVELOPER</p>
-                <!--ДОДЕЛАТЬ КНОПКУ!-->
-                <button class="btn_download_cv" type="button">Download CV</button>
-            </div>
-            <div class="header_photo">
-                <img class="main_photo" src="./images/header_photo.jpg" alt="Albina Tyulegenova photo">
-            </div>
-        </div>
-    </header>
-    <section class="about">
-        <div class="about_me">
-            <h2 class="title_about" id="about">About me</h2>
-            <p class="text_about_me">I am a <b>junior front-end developer</b> with a background in engineering. I hold a degree in oil and gas engeneering but decided to change my careee path to IT, as find this field more promising and exciting. I have experience working as a QA engineer at Yandex and as a database and network specialist at Global Monitoring. I possess the necessary soft skills for a developer and I am actively improving my hard skills.</p>
-        </div>
-        <div class="contact">
-            <h2 class="title_contact" id="contacts">Contancts</h2>
-            <ul class="contact_list">
-                <li class="contact_item">
-                    <a href="https://vk.com/telemesova" class="contact_icon_link" target="_blank">
-                        <img src="./images/vk.png" alt="VK logo" class="contact_vk">
-                    </a>
-                </li>
-                <li class="contact_item">
-                    <a href="https://t.me/albina_tyulegenova" class="contact_icon_link" target="_blank">
-                        <img src="./images/tg.png" alt="Telegram logo" class="contact_tg">
-                    </a>
-                </li>
-                <li class="contact_item">
-                    <a href="mailto:telemesova96@gmail.com" class="contact_icon_link" target="_blank">
-                        <img src="./images/email.png" alt="email logo" class="contact_email">
-                    </a>
-                </li>
-                <li class="contact_item">
-                    <a href="tel:+79273066339" class="contact_icon_link" target="_blank">
-                        <img src="./images/phone.png" alt="phone logo" class="contact_phone" title="+7-927-306-63-39">
-                    </a>
-                </li>
-                <li class="contact_item">
-                    <a href="https://github.com/AlbinaTelemesova" class="contact_icon_link" target="_blank">
-                        <img src="./images/git.png" alt="GitPub logo" class="contact_git">
-                    </a>
-                </li>                                
-            </ul>
-        </div>
-    </section>
-    <section class="skill">
-        <h2 class="title_skill" id="skills">Skills</h2>
-        <ul class="skill_list">
-            <li class="skill_item">
-                <h3 class="skill_name">HTML</h3>
-                <img src="./images/HTML5.png" alt="HTML5 logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">CSS</h3>
-                <img src="./images/CSS.png" alt="CSS3 logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">JavaScript</h3>
-                <img src="./images/js.png" alt="JavaScript logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">TypeScript</h3>
-                <img src="./images/ts.png" alt="TypeScript logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">Git</h3>
-                <img src="./images/git_logo.png" alt="Git logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">React</h3>
-                <img src="./images/react.png" alt="React logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">Node.js</h3>
-                <img src="./images/node.png" alt="Node.js logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">Sass</h3>
-                <img src="./images/sass.png" alt="Sass logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">Figma</h3>
-                <img src="./images/figma.png" alt="Figma logo" class="skill_logo">
-            </li>
-            <li class="skill_item">
-                <h3 class="skill_name">English</h3>
-                <img src="./images/english.png" alt="English" class="skill_logo">
-            </li>
-        </ul>
-    </section>
-    <section class="projects">
-        <h2 class="title_projects" id="projects">Projects</h2>
-    </section>
-    <section class="experience">
-        <h2 class="title_experience" id="experience">Experience</h2>
-        <ul class="experience_list">
-            <li class="experience_item">
-                <p class="experience_year">April 2022 - March 2023</p>
-                <p class="experience_company">QA engineer at Yandex</p>
-            </li>
-            <li class="experience_item">
-                <p class="experience_year">April 2023 - November 2023</p>
-                <p class="experience_company">Database and network specialist at Global Monitoring</p>
-            </li>
-        </ul>
-    </section>
-    <section class="education" id="education">
-        <h2 class="title_education">Education</h2>
-        <ul class="education_list">
-            <li class="education_item">
-                <p class="education_year">2014 - 2020</p>
-                <p class="education_course">Ufa State Petroleum Technological University (USPTU), oil and gas engineer</p>
-            </li>
-            <li class="education_item">
-                <p class="education_year">2022</p>
-                <p class="education_course">Udemy, Software testing from 0 to Intermediate</p>
-            </li>
-            <li class="education_item">
-                <p class="education_year">2025</p>
-                <p class="education_course">Stepik, FullStack Pro MAX</p>
-            </li>
-            <li class="education_item">
-                <p class="education_year">2025</p>
-                <p class="education_course">Rolling Scopes School, JS/Front-end Course</p>
-            </li>
-        </ul>
-    </section>
+    </main>
     <footer class="footer">
-        <div class="footer_copyright">
-            <p class="footer_copyright_text">© By Albina Tyulegenova</p>
-        </div>
-        <div class="footer_contact">
-            <ul class="footer_contact_list">
-                <li class="footer_contact_item">
-                    <a href="https://t.me/albina_tyulegenova" class="footer_icon_link" target="_blank">
-                        <img src="./images/tg.png" alt="Telegram logo" class="footer_contact_tg">
-                    </a>
-                </li>
-                <li class="footer_contact_item">
-                    <a href="https://github.com/AlbinaTelemesova" class="footer_icon_link" target="_blank">
-                        <img src="./images/git.png" alt="GitPub logo" class="footer_contact_git">
-                    </a>
-                </li>
-            </ul>
+        <div class="container">
+            <div class="footer_copyright">
+                <p class="footer_copyright_text">© By Albina Tyulegenova</p>
+            </div>
+            <div class="footer_contact">
+                <ul class="footer_contact_list">
+                    <li class="footer_contact_item">
+                        <a href="https://t.me/albina_tyulegenova" class="footer_icon_link" target="_blank">
+                            <img src="./images/tg.png" alt="Telegram logo" class="footer_contact_tg">
+                        </a>
+                    </li>
+                    <li class="footer_contact_item">
+                        <a href="https://github.com/AlbinaTelemesova" class="footer_icon_link" target="_blank">
+                            <img src="./images/git.png" alt="GitPub logo" class="footer_contact_git">
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
