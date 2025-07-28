@@ -115,3 +115,10 @@ a {
     display: flex;
     width: 50%;  
 }
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
