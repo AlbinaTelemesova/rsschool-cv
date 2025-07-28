@@ -35,7 +35,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
 .logo_name {
@@ -62,7 +62,56 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 200px;
-    padding-left: 15px;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+.header_list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content:center;
+    align-items: space-between;
+    margin-right: 200px;
+}
+
+.header_welcome {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.header_name {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.header_prof {
+    padding-bottom: 25px;
+}
+
+.btn_download_cv {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#FFF;
+    background-color: #3C1DFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s, ease;
+}
+.btn_download_cv:hover {
+    background-color: #15B9B9;
+}
+
+.header_photo {
+    display: flex;  
+}
+
+.main_photo {
+    display: flex;
+    width: 50%;  
 }
