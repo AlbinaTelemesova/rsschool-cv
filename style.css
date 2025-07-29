@@ -116,9 +116,94 @@ a {
     width: 50%;  
 }
 
-.about {
+.contact {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.contact_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 30px;
+    padding-bottom: 50px;
 }
+
+.title_contact {
+    margin-bottom: 16px;
+}
+
+.btn_contact {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 12px;
+    color:#FFF;
+    background-color: #3C1DFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s, ease;
+}
+
+.btn_contact:hover {
+    background-color: #15B9B9;
+}
+
+.about {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_about {
+    margin-bottom: 16px;
+}
+
+.skill {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_skill {
+    margin-bottom: 16px;
+}
+
+.skill_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_projects {
+    margin-bottom: 16px;
+}
+
+.experience {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_experience {
+    margin-bottom: 16px;
+}
+
+.experience_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.education {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_education {
+    margin-bottom: 16px;
+}
+
