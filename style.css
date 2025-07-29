@@ -1,0 +1,231 @@
+*, *::after,*::before {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+    font-family: "Poppins", sans-serif;
+    color: #FFF;
+    font-size: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width:1440px;
+    margin:0 auto;
+}
+
+.header_menu_navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+
+.logo_name {
+    font-family: "Alex Brush", sans-serif;
+    font-size: 20px;
+}
+
+.header_menu_list {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+}
+
+.header_menu_items {
+    margin-right: 24px;
+}
+
+.header_menu_link {
+    color: #FFF
+}
+
+.header_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-bottom: 100px;
+}
+
+.header_list {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content:center;
+    align-items: space-between;
+    margin-right: 200px;
+}
+
+.header_welcome {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.header_name {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.header_prof {
+    padding-bottom: 25px;
+}
+
+.btn_download_cv {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color:#FFF;
+    background-color: #3C1DFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s, ease;
+}
+.btn_download_cv:hover {
+    background-color: #15B9B9;
+}
+
+.header_photo {
+    display: flex;  
+}
+
+.main_photo {
+    display: flex;
+    width: 50%;  
+}
+
+.contact {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+}
+
+.contact_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.title_contact {
+    margin-bottom: 16px;
+}
+
+.btn_contact {
+    padding: 20px 50px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 12px;
+    color:#FFF;
+    background-color: #3C1DFF;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s, ease;
+}
+
+.btn_contact:hover {
+    background-color: #15B9B9;
+}
+
+.about {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_about {
+    margin-bottom: 16px;
+}
+
+.skill {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_skill {
+    margin-bottom: 16px;
+}
+
+.skill_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_projects {
+    margin-bottom: 16px;
+}
+
+.experience {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_experience {
+    margin-bottom: 16px;
+}
+
+.experience_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.education {
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
+
+.title_education {
+    margin-bottom: 16px;
+}
+
+
+
+.footer_contact_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.footer_contact_tg {
+    width: 50px;
+    height: 50px;
+}
+
+.footer_contact_git {
+    width: 50px;
+    height: 50px;
+}
+
+.footer_copyright {
+    padding-left: 30px;
+    font-size: 16px;
+}
